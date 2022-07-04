@@ -1,0 +1,6 @@
+.app {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 100vh; */
+}
