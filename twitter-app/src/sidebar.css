@@ -1,12 +1,12 @@
 .sidebar {
+    width: inherit;
+    height: inherit;
+    max-width: 250px;
+    color: white;
+    /* position: sticky; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
-    flex: 0.3;
-    max-width: 250px;
-    /* width: 10px; */
-    /* width: 30%; */
-    /* position: fixed; */
-
-}
+    align-items: center;
+    border-right: 1px solid #657786;
+  }

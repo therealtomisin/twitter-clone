@@ -1,11 +1,18 @@
 import React from 'react'
 
-const Trend = () => {
+const Trend = ({trend}) => {
   return (
-    <div>
+    <div className='trend' >
 
-        this is the latest trend
-
+        <span className="trend__category">
+            {trend.category}
+        </span>
+        <div className="trend__title">
+            {trend.title}
+        </div>
+        <span className="twend__tweetAmount">
+            {trend.number}
+        </span>
     </div>
   )
 }

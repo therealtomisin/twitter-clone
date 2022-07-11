@@ -1,6 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .app {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  /* height: 100vh; */
+  /* justify-content: space-between; */
+  background-color: black;
+  height: 100vh;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-right: 60px;
+  margin-left: 60px;
 }
+.aside{
+  flex: 0.2;
+  height: 100vh;
+}
+/* .sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
+.mainBody {
+  background-color: black;
+  display: flex;
+  flex: 0.8;
+  overflow-y: scroll;
+}
+/* .explore {
+  flex: 0.4;
+  background-color: turquoise ;
+  overflow-y: scroll;
+} */
+
+
+

@@ -6,9 +6,13 @@ import Explore from './pages/Explore';
 function App() {
   return (
     <div className="app">
-      <Sidebar />
-      <Feed />
-      <Explore />
+        <div className="aside">
+          <Sidebar />
+        </div>
+        <div className="mainBody">
+          <Feed />
+          <Explore />
+        </div>
     </div>
   );
 }

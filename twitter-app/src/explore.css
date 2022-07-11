@@ -1,7 +1,55 @@
 .explore {
-    flex: 0.3;
-}
 
-.explore__searchRegion {
-    background-color: #657786
-}
+    /* width: 400px; */
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: white;
+    overflow-y: scroll;
+    align-items: center;
+  }
+
+  .explore::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .explore {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+
+  .explore__searchRegion {
+
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explore__searchInput {
+    width: 340px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: #44444486;
+  }
+
+  .explore__trends {
+    background-color: #44444486;
+    width: 340px;
+    list-style-type: none;
+    border-radius: 20px;
+  }
+
+  .trend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }

@@ -1,38 +1,75 @@
 .tweet {
-    display: flex;
-    background-color:black;
-  }
-  
-  .tweet__avi {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    border-radius: 50%;
-    background-color: blue;
-    margin: 3px;
-  }
-  
-  .tweet__components {
+    border: 1px solid #657786;
+    width: 34rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    color: aliceblue;
-    width: 100%;
-    padding: 5px;
-  }
-  
-  .tweet__topLayer {
+    justify-content: center;
+}
+
+.tweet:hover {
+    background-color: rgba(57, 57, 57, 0.458);
+}
+
+.tweet__container {
+    display: flex;
+}
+
+.tweet__components {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+.tweet__avi {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: pink;
+    margin-right: 7px;
+}
+
+.tweet__topLayer {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .tweet__names {
-    display: flex;
-    /* width: 60px; */
-    justify-content: space-evenly;
-  }
+}
 
-  .tweet__bottomLayer {
+.tweet__content {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tweet__bottomLayer {
     display: flex;
-    justify-content: space-around;
-    /* width: 100%; */
-  }
+    justify-content: space-between;
+}
+
+.tweet__options {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tweet__options:hover {
+    cursor: pointer;
+    background-color: rgba(81, 174, 250, 0.398);
+    /* padding: 5px; */
+    /* border-radius: 50%; */
+    z-index: 1;
+}
+
+.tweet__ellipses {
+    color: white;
+    /* background-color: #fff; */
+    width: 20px;
+    height: 15px;
+}
+
+.liked {
+    color: red;
+}

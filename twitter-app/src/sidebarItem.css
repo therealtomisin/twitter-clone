@@ -1,6 +1,5 @@
 .sidebarItem {
     display: flex;
+    align-items: center;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
